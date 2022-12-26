@@ -1,0 +1,495 @@
+#khelo-india-centers{
+    padding: 50px 0;
+    background-color: #F6F6F7;
+}
+#khelo-india-centers .heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.vl{
+    width: 100px;
+    height: 5px;
+    color: #f69359;
+    background-color: #f69359;
+    border: 1px solid #f69359;
+}
+
+#khelo-india-centers .tiles .num .num-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    min-width: 80px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#khelo-india-centers .tiles {
+    border: 1px solid #F6F6F7;
+    padding: 30px 30px;
+    border-radius: 10px;
+   background-color: white;
+   margin: 20px 0;
+   min-height: 150px;
+}
+#khelo-india-centers .tile-1{
+border: 1px solid #ffffff !important;
+color: #ffffff !important;
+}
+#khelo-india-centers .tile-2{
+    border: 1px solid #ffffff !important;
+    color: #ffffff !important;
+    }
+    #khelo-india-centers .tile-3{
+        border: 1px solid #ffffff !important;
+        color: #ffffff !important;
+        }
+
+        #khelo-india-centers .tile-5{
+            border: 1px solid #ffffff !important;
+            color: #ffffff !important;
+            }
+            #khelo-india-centers .tile-6{
+                border: 1px solid #ffffff !important;
+                color: #ffffff !important;
+                }
+
+                #khelo-india-centers .tile-4{
+                    border: 1px solid #ffffff !important;
+                    color: #ffffff !important;
+                    }
+
+
+
+#khelo-india-centers .tiles .num .num-text{
+    line-height: 1.2;
+}
+#khelo-india-centers .tiles .num .num-text .text-box{
+    /* padding: 0px 35px 0px 0px; */
+    /* width: 170px; */
+    font-weight: 700;
+}
+
+.tiles-btn{
+    width: 50px;
+    height: 50px;
+}
+
+#khelo-india-centers .tiles .num .num-text .vl{
+    margin-top: 5px;
+ color: #C5C5C5;
+ border: 1px solid #C5C5C5;
+ background-color: #C5C5C5;
+ width: 45px;
+ height: 2px;
+}
+
+.champion-athlete .box-ryt h6{
+font-size: 22px !important;
+/* color: blue !important; */
+}
+.champion-athlete .box-ryt h3{
+    font-weight: 900;
+    /* font-size: 22px !important; */
+    /* color: blue !important; */
+    }
+
+   .state-wise-count .backward-arrow {
+    height: 30px;
+   } 
+
+
+#centers-tiles-new-box{
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+   }
+
+ .centers-tiles-new-box-1{
+    border-radius: 10px !important;
+    border:3px solid #F4AA0F !important;
+ }  
+
+ .center-tile-box .center-tiles{
+    border-radius: 10px !important;
+    margin: 20px 0;
+}
+.center-tile-box h3{
+    font-weight: 700;
+}
+.center-tile-box .center-tile-1{
+    /* background-color: red; */
+
+    color: #5b3e00 !important;
+    border: 1px solid #F4AA0F !important;
+    background-color: #f4aa0f29 !important ;
+
+}
+.center-tile-box .center-tile-2{
+   
+    color: #651509 !important;
+    border: 1px solid #DC6856 !important;
+    background-color: #dc685621 !important;
+
+}
+.center-tile-box .center-tile-3{
+   
+    color: #024e4c !important;
+    border: 1px solid #00C3BD !important;
+    background-color: #f9859726 !important ;
+
+}
+.center-tile-box .center-tile-4{
+  
+    color:#801828 !important;
+    border: 1px solid #F98597 !important;
+    background-color: #7054ff24 !important;
+
+}
+.center-tile-box .center-tile-5{
+  
+    color: #11083e !important;
+    border: 1px solid #7054FF !important;
+    background-color: #7054ff24 !important ;
+
+}
+
+
+/* .women-sports{
+    background-color: #F6F9FF;
+} */
+.women-sports .women-tile{
+    min-height: 135px;
+    background-color: white;
+    margin: 5px 0;
+    border-radius: 10px;
+    padding: 5px 12px;
+    box-shadow: 2px 2px #00000021;
+}
+.women-sports .women-tile h5{
+  font-weight: 700;
+  line-height: 1;
+}
+.women-sports .women-tile p{
+    font-weight: 400;
+    line-height: 1;
+  }
+
+  .highcharts-credits{
+    display: none !important;
+  }
+
+
+  .khelo-india-summary .khelo-summary{
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 15px 20px;
+    min-height: 145px;
+    margin: 20px 0;
+}
+.khelo-india-summary  h3{
+    font-weight: 700;
+}
+.khelo-india-summary p{
+    font-weight: 400;
+}
+
+.khelo-summary  .summary-number{
+    padding: 8px 12px;
+}
+
+.khelo-india-summary .summary-number-1{
+    background-color: #531060;
+    border-radius: 10px;
+}
+.khelo-india-summary .summary-number-2{
+    background-color: #74B6BC;
+    border-radius: 10px;
+}
+.khelo-india-summary .summary-number-3{
+    background-color: #D66237;
+    border-radius: 10px;
+}
+.khelo-india-summary .summary-number-4{
+    background-color: #AE1E1E;
+    border-radius: 10px;
+}
+.khelo-india-summary .summary-number-5{
+    background-color: #5A5EE8;
+    border-radius: 10px;
+}
+.khelo-india-summary .summary-number-6{
+    background-color: #8A2648;
+    border-radius: 10px;
+}
+.khelo-india-summary  .summary-tile-1{
+    border: 1px solid #70367C;
+    background-color: #70367C;
+}
+.khelo-india-summary  .summary-tile-2{
+    border: 1px solid #95CFD5;
+    background-color: #95CFD5;
+}
+.khelo-india-summary  .summary-tile-3{
+    border: 1px solid #FD7E50;
+    background-color: #FD7E50;
+}
+.khelo-india-summary  .summary-tile-4{
+    border: 1px solid #DC4C4C;
+    background-color: #DC4C4C;
+}
+.khelo-india-summary  .summary-tile-5{
+    border: 1px solid #8C90F9;
+    background-color: #8C90F9;
+}
+.khelo-india-summary  .summary-tile-6{
+    border: 1px solid #B23D65;
+    background-color: #B23D65;
+}
+
+#khelo-india-centers{
+    padding: 50px 0;
+    background-color: white !important;
+}
+#khelo-india-centers .heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.vl{
+    width: 100px;
+    height: 5px;
+    color: #f69359;
+    background-color: #f69359;
+    border: 1px solid #f69359;
+}
+
+#khelo-india-centers .tiles .num .num-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60px;
+    min-width: 80px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 28px;
+    font-weight: 700;
+    word-break: break-word;
+}
+
+#khelo-india-centers .tiles {
+    border: 1px solid #cacacf;
+    padding: 10px 10px;
+    border-radius: 10px;
+   background-color: white;
+   margin: 20px 0;
+   min-height: 200px;
+}
+#khelo-india-centers .tile-1{
+border: 1px solid #CB4700 !important;
+color: #CB4700 !important;
+}
+#khelo-india-centers .tile-2{
+    border: 1px solid #B476E2 !important;
+    color: #B476E2 !important;
+    }
+    #khelo-india-centers .tile-3{
+        border: 1px solid #FFC60A !important;
+        color: #FFC60A !important;
+        }
+
+        #khelo-india-centers .tile-5{
+            border: 1px solid #2AB280 !important;
+            color: #2AB280 !important;
+            }
+            #khelo-india-centers .tile-6{
+                border: 1px solid #E1E1E1 !important;
+                color: #E1E1E1 !important;
+                }
+
+                #khelo-india-centers .tile-4{
+                    border: 1px solid #007ACB !important;
+                    color: #007ACB !important;
+                    }
+
+
+
+#khelo-india-centers .tiles .num .num-text{
+    line-height: 1.2;
+}
+#khelo-india-centers .tiles .num .num-text .text-box{
+   
+    font-weight: 700;
+
+}
+
+.tiles-btn{
+    width: 50px;
+    height: 50px;
+}
+
+#khelo-india-centers .tiles .num .num-text .vl{
+    margin-top: 5px;
+ color: #C5C5C5;
+ border: 1px solid #C5C5C5;
+ background-color: #C5C5C5;
+ width: 45px;
+ height: 2px;
+}
+
+.women-winter .nav-link{
+    color: #b2b2b2;
+    border-bottom:3px solid #cbcbcc66;
+    border-radius: 0;
+}
+.women-winter .nav-item .active{
+    background-color: #000080 !important;
+}
+
+.landing-page .landing-page-header .logo img{
+    height: 70px;
+}
+.landing-page .landing-cover .landing-navbar .navbar-nav .nav-item .nav-img{
+    height: 20px;
+    width: 20px;
+}
+
+#landing-page-navbar-bg{
+    background-color: #000080 !important;
+    color: #ffffff;
+    border-radius: 2px;
+    padding: 6px 12px;
+}
+
+.landing-page .landing-navbar .navbar-dark .navbar-nav .nav-link{
+    
+    letter-spacing: 0.6px;
+    color: white;
+    letter-spacing: 0.6px;
+    border: 1px solid #dedede6b;
+    margin: 0 8px;
+    border-radius: 2px;
+}
+.landing-page .landing-navbar .navbar-dark .navbar-nav .nav-link:hover{
+    
+    letter-spacing: 0.6px;
+    color: black;
+    letter-spacing: 0.6px;
+    border: 1px solid #dedede6b;
+    margin: 0 8px;
+    border-radius: 2px;
+    background-color: white;
+}
+.landing-page .landing-navbar .navbar-dark .navbar-nav .nav-link .nav-img:hover{
+
+}
+.landing-page .landing-navbar .navbar-dark .navbar-nav .nav-item a{
+   
+   display: flex;
+   align-items: center;
+}
+
+
+
+.landing-cover{
+    position: relative;
+}
+
+.landing-page .landing-navbar .navbar  .dropdown-menu{
+  
+    padding: 0;
+    box-shadow: 1px 1px #dedede;
+}
+.landing-page .landing-navbar .navbar  .dropdown-menu a{
+    
+    color: black !important;
+    border-bottom: 1px dashed #DEDEDE;
+   
+}
+
+
+.landing-page .landing-navbar .navbar  .dropdown-menu a:hover{
+  
+    color: black !important;
+    
+}
+.khelo-summary{
+    word-break: break-word !important;
+}
+.women-sports{
+    background-color: #F6F9FF;
+}
+.women-sports .women-tile{
+    min-height: 135px;
+    background-color: white;
+    margin: 5px 0;
+    border-radius: 10px;
+    padding: 5px 12px;
+    box-shadow: 2px 2px #00000021;
+}
+.women-sports .women-tile h5{
+  font-weight: 700;
+  line-height: 1;
+}
+.women-sports .women-tile p{
+    font-weight: 400;
+    line-height: 1;
+  }
+
+#speedometer{
+    box-shadow: 2px 2px #AEAEAE29;
+}
+.women-record-cards .women-card{
+    padding: 55px 15px 8px 15px;
+    background-color: white;
+    border: 1px solid #B5B5B566;
+    border-radius: 10px;
+    box-shadow: 1px 1px #0C70C729;
+    position: relative;
+    margin-top: 60px;
+}
+
+.women-record-cards .women-card .card-image{
+    position: absolute;
+    top: -15%;
+}
+.women-record-cards .women-photo{
+    height: 80px !important;
+    width: 65px !important;
+}
+.women-record-cards .women-card .card-lable{
+ 
+}
+.women-record-cards .women-card .card-lable h5{
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    line-height: 1.3;
+}
+.women-record-cards .women-card .card-lable p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #878181;
+    line-height: 1.3;
+}
+.women-cards-page{
+    background-color: #F6F9FF;
+}
+
+.esri-attribution__powered-by{
+    display: none !important;
+}
+
+@media screen and (max-width:567px) {
+    .spl_text{
+        display: none !important;
+    }
+}

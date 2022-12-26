@@ -1,0 +1,90 @@
+@include('includes.header')
+
+<script src="{{asset('public/front/global.js')}}"></script>
+
+<div class="athelete-supported pt-4 pt-md-5">
+	<div class="container-fluid">
+		{{-- <div class="text-center">
+			<h1 class="text-center"><img src="" alt="">KISCE Finance-2022</h1>
+		</div> --}}
+        <div class="container">
+            <div class="row align-items-center" style=" font-size: 33px; font-weight:700; padding:5px; border-radius:7px; border: 1px solid #AFAFB4;">
+              <div class="col-lg-1 col-md-2 col-3" style="display:flex;">
+                <button
+                onclick="{history.back()}"
+                  type="button"
+                  class="background-light border-0"
+                  style="background-color: transparent !important"
+                >
+                  <img
+                  src="{{ asset('public/front/assets/images/svg/backward-arrow.svg')}}"
+                    class="img-fluid backward-arrow d-block mx-auto d-flex"
+                    alt=""
+                  />
+                </button>
+              </div>
+              <div class="col-lg-11 col-md-10 col-9">
+                <h2 class="text-center" style="font-size: 33px; font-weight:700; ">KISCE Finance</h2>
+              </div>
+            </div>
+
+
+
+            </div>
+		<div class="row charts-row">
+			<div class="col-lg-12 item">
+            <div class="box">
+               <div class="row">
+                   <div class="col-lg-12 pe-xl-4">
+                       <div class="table-responsive khelo-indiagame-table">
+                           <table class="table table-hover">
+                               <thead>
+                                   <tr>
+                                       <th>#</th>
+                                       <th>Name of KISCE</th>
+                                       <th>State Name</th>
+                                       <th>Year</th>
+                                       <th>Recurring Sanctioned</th>
+                                       <th>Recurring Released</th>
+                                       <th>Non-recurring Sanctioned</th>
+                                       <th>Non-recurring released</th>
+
+
+
+                                   </tr>
+                               </thead>
+                               <tbody>
+                                @foreach($data as $key => $value)
+                               <tr>
+                               <td>{{$key+1}}</td>
+                               <td>{{$value->center_name ?? ''}}</td>
+                               <td class="state_{{$value->state_code}}">{{$value->state_code ?? ''}}</td>
+                               <td>{{$value->year ?? ''}}</td>
+                               <td>{{$value->rec_sanctioned ?? ''}}</td>
+                               <td>{{$value->rec_released ?? ''}}</td>
+                               <td>{{$value->non_rec_sanctioned ?? ''}}</td>
+                               <td>{{$value->non_rec_released ?? ''}}</td>
+                               </tr>
+
+                               <script>
+                                var st = "{{$value->state_code}}";
+                                $(".state_"+st).text(state_district[st][0]);
+                               </script>
+								@endforeach
+                               </tbody>
+                           </table>
+                       </div>
+                   </div>
+                   <!-- <div class="col-lg-6 border-start border-dark px-xl-4">
+                       <div id="kiyg-chart3"></div>
+                   </div> -->
+               </div>
+           </div>
+        </div>
+
+
+		</div>
+	</div>
+</div>
+@include('includes.footer')
+
